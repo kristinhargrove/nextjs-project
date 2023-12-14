@@ -1,4 +1,11 @@
-const DrinksPage = () => {
+const url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a";
+
+
+
+const DrinksPage = async () => {
+  const response = await fetch(url);
+  const data = await response.json();
+
   return (
     <div>
       <h1 className="text-7xl">DrinksPage</h1>
