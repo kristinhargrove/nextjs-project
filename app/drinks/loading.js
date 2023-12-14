@@ -1,7 +1,5 @@
-import React from "react";
-
 const loading = () => {
-  return <span className="loading-dots">loading</span>;
+  return <span className="loading loading-dots loading-lg"></span>;
 };
 
 export default loading;
